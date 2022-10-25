@@ -10,10 +10,17 @@
 <Code theme="rose-pine" />
 
 <style>
+	:global(*) {
+		margin: 0;
+	}
 	:global(body) {
+		padding: 1rem;
 		background: #222831;
 		color: #DDDDDD;
 		font-family: monospace;
+	}
+	h1 {
+		margin-bottom: 1rem;
 	}
 
 	:global(pre) {
